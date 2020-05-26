@@ -20,7 +20,7 @@ use Slim::Plugin::OnlineLibrary::BrowseArtist;
 use Slim::Plugin::OnlineLibrary::Libraries;
 
 use constant DELAY_FIRST_POLL => 24;
-use constant POLLING_INTERVAL => 5 * 60;
+use constant POLLING_INTERVAL => 60 * 60;
 
 my $prefs = preferences('plugin.onlinelibrary');
 
@@ -239,13 +239,27 @@ sub systemInfoMenu {
 				};
 			}
 
+			if ($totals->{playlists}) {
+				push @{$item->{items}}, {
+					type => 'text',
+					name => cstring($client, 'INFORMATION_PLAYLISTS') . cstring($client, 'COLON') . ' ' . Slim::Utils::Misc::delimitThousands($totals->{playlists}),
+				};
+			}
+
+			if ($totals->{playlistTracks}) {
+				push @{$item->{items}}, {
+					type => 'text',
+					name => cstring($client, 'PLUGIN_ONLINE_LIBRARY_INFORMATION_PLAYLISTTRACKS') . cstring($client, 'COLON') . ' ' . Slim::Utils::Misc::delimitThousands($totals->{playlistTracks}),
+				};
+			}
+
 			push @$items, $item;
 
 			main::idleStreams();
 		}
 	}
 
-	return [ sort @$items ];
+	return [ sort { $a->{name} cmp $b->{name}} @$items ];
 }
 
 sub getLibraryProviders {
