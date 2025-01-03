@@ -10,7 +10,7 @@
 				"DE": "Der <a href=\"https://github.com/CDrummond/lms-material\" target=\"_blank\">Material Skin</a> bietet eine moderne, reichhaltige und f&uuml;r Desktop wie Mobilbrowser anpassungsf&auml;hige Benutzeroberfl&auml;che f&uuml;r Ihre Musiksammlung.",
 				"EN": "The <a href=\"https://github.com/CDrummond/lms-material\" target=\"_blank\">Material Skin</a> provides a modern, rich, and responsive user interface to your music collection.",
 				"FR": "Le plugin <a href=\"https://github.com/CDrummond/lms-material\" target=\"_blank\">Material Skin</a> fournit une interface utilisateur moderne, riche et r&eacute;active (utilisable ais&eacute;ment quelle que soit la taille de l'&eacute;cran) pour votre collection musicale.",
-				"NL": "De <a href=\"https://github.com/CDrummond/lms-material\" target=\"_blank\">Material Skin</a> biedt een moderne, rijke en responsieve gebruikersinterface voor je muziekcollectie."
+				"NL": "De <a href=\"https://github.com/CDrummond/lms-material\" target=\"_blank\">Material Skin</a> biedt een moderne, rijke en responsive gebruikersinterface voor jouw muziekcollectie."
 			},
 			"checked": true,
 			"img": "https://raw.githubusercontent.com/CDrummond/lms-material/master/screenshots/desktop-initial.png"
@@ -21,14 +21,15 @@
 				"DA": "Musik- og kunstnerinformation",
 				"DE": "Musik- und Interpreteninformation",
 				"EN": "Music and Artist Information",
-				"FR": "Informations sur la Musique et les Artistes"
+				"FR": "Informations sur la Musique et les Artistes",
+				"NL": "Muziek en Artiest Informatie"
 			},
 			"desc": {
 				"DA": "Musik- og kunsterinformation udvidelsesmodul (plugin) tilbyder mere information om din musik: biografier, anmeldelser, sangtekster og mere. Det er en perfekt tilføjelse til Material Skin.",
 				"DE": "Das Musik- und Interpreteninformationen-Plugin bietet zus&auml;tzliche Informationen zu Ihrer Musik: Biografien, Albumkritiken, Songtexte und mehr. Es ist eine perfekte Erg&auml;nzung zum Material Skin.",
 				"EN": "The Music and Artist Information plugin provides additional information about your music: biographies, album reviews, lyrics and more. It's a perfect addition to the Material Skin.",
 				"FR": "Le plugin \"Informations sur la Musique et les Artistes\" fournit des informations suppl&eacute;mentaires sur votre musique : biographies des artistes, critiques des albums, paroles des chansons et plus encore. Il compl&egrave;te parfaitement le plugin Material Skin.",
-				"NL": "De Music and Artist Information plugin geeft extra informatie over je muziek: biografieën, albumrecensies, songteksten en meer. Het is een perfecte aanvulling op de Material Skin."
+				"NL": "De Muziek en Artist Information plugin geeft extra informatie over jouw muziek: biografieën, albumrecensies, songteksten en meer. Het is een perfecte aanvulling op de Material Skin."
 			},
 			"checked": true,
 			"img": "https://raw.githubusercontent.com/CDrummond/lms-material/master/screenshots/desktop-mai.png"
@@ -39,7 +40,8 @@
 				"DA": "Spotty - Spotify integration for LMS",
 				"DE": "Spotty Spotify Integration f&uuml;r LMS",
 				"EN": "Spotty Spotify implementation for LMS",
-				"FR": "Int&eacute;gration Spotty Spotify pour LMS"
+				"FR": "Int&eacute;gration Spotty Spotify pour LMS",
+				"NL": "Spotty Spotify integratie voor LMS"
 			},
 			"desc": {
 				"DA": "Spotty er en Spotify implementation for LMS, som fungerer med alle LMS brugergrænseflader til at kontrollere afspilning fra en Spotify Premium konto.",
@@ -76,7 +78,7 @@
 				"DE": "Qobuz ist eine Musik-Streaming-Plattform mit Zugriff auf &uuml;ber 100 Millionen Songs, die alle im Hi-Res FLAC (Free Lossless Audio Codec) Format verf&uuml;gbar sind.",
 				"EN": "Qobuz is a music-streaming platform with access to over 100 million songs, all of which are available in the hi-res FLAC (Free Lossless Audio Codec) format.",
 				"FR": "Qobuz est une plateforme de streaming musical donnant acc&egrave;s &agrave; plus de 100 millions de morceaux, souvent disponibles au format FLAC Hi-Res (Free Lossless Audio Codec).",
-				"NL": "Qobuz is een muziek-streaming platform met toegang tot meer dan 100 miljoen nummers, die allemaal beschikbaar zijn in het hi-res FLAC (Free Lossless Audio Codec) formaat.."
+				"NL": "Qobuz is een muziek-streaming platform met toegang tot meer dan 100 miljoen nummers, die allemaal beschikbaar zijn in het hi-res FLAC (Free Lossless Audio Codec) formaat."
 			},
 			"icon": "https://raw.githubusercontent.com/LMS-Community/plugin-Qobuz/master/HTML/EN/plugins/Qobuz/html/images/icon.png",
 			"checked": false
@@ -134,14 +136,14 @@
 				"DE": "Analytikdaten teilen",
 				"EN": "Report Analytics Data",
 				"FR": "Partage de donn&eacute;es d'analyse",
-				"NL": "Rapport Analytics-gegevens"
+				"NL": "Analysegegevens rapporteren"
 			},
 			"desc": {
 				"DA": "Ved at bidrage med <a href=\"https://lyrion.org/analytics/learn-more/\" target=\"lyrion\">nogle anonyme analytiske data</a> hjælper du os med <a href=\"https://lyrion.org/analytics/\" target=\"lyrion\">videre udvikling af</a> Lyrion Music Server.",
 				"DE": "Durch die Bereitstellung <a href=\"https://lyrion.org/analytics/learn-more/\" target=\"lyrion\">anonymer analytischer Daten</a> helfen Sie uns, den <a href=\"https://lyrion.org/analytics/\" target=\"lyrion\">Lyrion Music Server weiterzuentwickeln</a>.",
 				"EN": "By providing <a href=\"https://lyrion.org/analytics/learn-more/\" target=\"lyrion\">some anonymous analytical data</a> you <a href=\"https://lyrion.org/analytics/\" target=\"lyrion\">help us further develop</a> Lyrion Music Server.",
 				"FR": "En fournissant <a href=\"https://lyrion.org/analytics/learn-more/\" target=\"lyrion\">des donn&eacute;es d'analyse anonymes</a>, vous nous aidez &agrave; <a href=\"https://lyrion.org/analytics/\" target=\"lyrion\">d&eacute;velopper davantage le Lyrion Music Server</a>.",
-				"NL": "Door het verstrekken van <a href=\"https://lyrion.org/analytics/learn-more/\" target=\"lyrion\">anonieme analytische gegevens</a> helpt u ons bij de <a href=\"https://lyrion.org/analytics/\" target=\"lyrion\">verdere ontwikkeling</a> van Lyrion Music Server."
+				"NL": "Door het verstrekken van <a href=\"https://lyrion.org/analytics/learn-more/\" target=\"lyrion\">anonieme analysegegevens</a> help je ons bij de <a href=\"https://lyrion.org/analytics/\" target=\"lyrion\">verdere ontwikkeling</a> van Lyrion Music Server."
 			},
 			"checked": true,
 			"img": "/html/images/analytics.png"
